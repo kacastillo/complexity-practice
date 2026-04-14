@@ -174,7 +174,7 @@ public class Main {
   // Write this method to efficiently return the corresponding email or "Person not found" if appropriate
   // assume that each String is bounded by a constant length
   // What is the time complexity of your solution?
-  // YOUR ANSWER HERE
+  // o(1)
   public static String emailLookupEfficient(HashMap<String, String> namesToEmails, String queryName) {
     return null;
   }
@@ -182,7 +182,7 @@ public class Main {
   // What is the time complexity of this method?
   // assume that each String is bounded by a constant length
   // (assume the set and list have the same number of elements)
-  // YOUR ANSWER HERE
+  // o(n^2)
   public static boolean hasCommon(HashSet<String> wordSet, ArrayList<String> wordList) {
     for(String word : wordSet) {
       if(wordList.contains(word)) {
@@ -195,7 +195,7 @@ public class Main {
   // Do not change the datatype of wordSet or wordList.
   // assume that each String is bounded by a constant length
   // What is the time complexity of your new solution?
-  // YOUR ANSWER HERE
+  // o(n)
   public static boolean hasCommonEfficient(HashSet<String> wordSet, ArrayList<String> wordList) {
     return false;
   }
